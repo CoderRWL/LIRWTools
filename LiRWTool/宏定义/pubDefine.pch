@@ -1,0 +1,45 @@
+//
+//  pubDefine.pch
+//  LiRWTool
+//
+//  Created by  RWLi on 2020/2/23.
+//  Copyright © 2020  RWLi. All rights reserved.
+//
+
+#ifndef pubDefine_pch
+#define pubDefine_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//文件路径前缀
+//$(SRCROOT)/项目名称/...
+
+//代码块 <#  .. #  />
+
+#pragma mark - LOG宏
+
+
+#ifdef DEBUG
+//## __VA_ARGS__ 可变参数固定写法， ## 是为了后面没有可变参数时可以去掉逗号（，）
+// fmt前 c++11 要有空格
+#define DLog(fmt,...)\
+NSLog(@"[行号:%d函数名:%s] log:" fmt,__LINE__,__func__, ## __VA_ARGS__);
+//#define DebugLog(fmt,...) \
+//NSLog(@"[%d行 %s函数] log->%@",__LINE__,__func__,[NSString stringWithFormat:fmt,## __VA_ARGS__]);
+
+#else
+
+#define DLog(fmt,...)
+
+#endif
+
+
+
+
+#define Weak(var) __weak typeof(var) weak##var = var;
+//最好中间空一行，不然可能没提示
+#define Strong(var) __strong typeof(weak##var) strong##var =  weak##var;
+
+#endif /* pubDefine_pch */

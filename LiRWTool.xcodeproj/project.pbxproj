@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF7705F24021EC900717686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7705E24021EC900717686 /* AppDelegate.m */; };
+		FBF7706224021EC900717686 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7706124021EC900717686 /* SceneDelegate.m */; };
+		FBF7706524021EC900717686 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FBF7706424021EC900717686 /* ViewController.mm */; };
+		FBF7706824021EC900717686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7706624021EC900717686 /* Main.storyboard */; };
+		FBF7706A24021EC900717686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF7706924021EC900717686 /* Assets.xcassets */; };
+		FBF7706D24021EC900717686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7706B24021EC900717686 /* LaunchScreen.storyboard */; };
+		FBF7707024021EC900717686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7706F24021EC900717686 /* main.m */; };
+		FBF7707E24022BF100717686 /* varibleAgument.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7707D24022BF100717686 /* varibleAgument.m */; };
+		FBF77083240230AA00717686 /* STD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF77081240230AA00717686 /* STD.cpp */; };
+		FBF7708724023C1500717686 /* getVar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7708624023C1500717686 /* getVar.m */; };
+		FBF7708C24023F6600717686 /* blockObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7708B24023F6600717686 /* blockObj.m */; };
+		FBF7708F24023F8100717686 /* blockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7708E24023F8100717686 /* blockManager.m */; };
+		FBF7709324024BA500717686 /* LRWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7709224024BA500717686 /* LRWTableView.m */; };
+		FBF7709624024C0B00717686 /* LRWTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF7709524024C0B00717686 /* LRWTableManager.m */; };
+		FBF7709A2402665E00717686 /* runloopObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF770992402665E00717686 /* runloopObj.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF7705A24021EC900717686 /* LiRWTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiRWTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF7705D24021EC900717686 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBF7705E24021EC900717686 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBF7706024021EC900717686 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBF7706124021EC900717686 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBF7706324021EC900717686 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBF7706424021EC900717686 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FBF7706724021EC900717686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF7706924021EC900717686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF7706C24021EC900717686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF7706E24021EC900717686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF7706F24021EC900717686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF7707A24021FC500717686 /* pubDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubDefine.pch; sourceTree = "<group>"; };
+		FBF7707C24022BF100717686 /* varibleAgument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = varibleAgument.h; sourceTree = "<group>"; };
+		FBF7707D24022BF100717686 /* varibleAgument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = varibleAgument.m; sourceTree = "<group>"; };
+		FBF77081240230AA00717686 /* STD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STD.cpp; sourceTree = "<group>"; };
+		FBF77082240230AA00717686 /* STD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STD.hpp; sourceTree = "<group>"; };
+		FBF7708524023C1500717686 /* getVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getVar.h; sourceTree = "<group>"; };
+		FBF7708624023C1500717686 /* getVar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getVar.m; sourceTree = "<group>"; };
+		FBF7708A24023F6600717686 /* blockObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blockObj.h; sourceTree = "<group>"; };
+		FBF7708B24023F6600717686 /* blockObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockObj.m; sourceTree = "<group>"; };
+		FBF7708D24023F8100717686 /* blockManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blockManager.h; sourceTree = "<group>"; };
+		FBF7708E24023F8100717686 /* blockManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockManager.m; sourceTree = "<group>"; };
+		FBF7709124024BA500717686 /* LRWTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWTableView.h; sourceTree = "<group>"; };
+		FBF7709224024BA500717686 /* LRWTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRWTableView.m; sourceTree = "<group>"; };
+		FBF7709424024C0B00717686 /* LRWTableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWTableManager.h; sourceTree = "<group>"; };
+		FBF7709524024C0B00717686 /* LRWTableManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRWTableManager.m; sourceTree = "<group>"; };
+		FBF770982402665E00717686 /* runloopObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runloopObj.h; sourceTree = "<group>"; };
+		FBF770992402665E00717686 /* runloopObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runloopObj.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF7705724021EC900717686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF7705124021EC900717686 = {
+			isa = PBXGroup;
+			children = (
+				FBF7705C24021EC900717686 /* LiRWTool */,
+				FBF7705B24021EC900717686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF7705B24021EC900717686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7705A24021EC900717686 /* LiRWTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF7705C24021EC900717686 /* LiRWTool */ = {
+			isa = PBXGroup;
+			children = (
+				FBF770972402664900717686 /* runloop */,
+				FBF7709024024B6F00717686 /* table */,
+				FBF7708924023F4F00717686 /* block */,
+				FBF7708424023BF000717686 /* runtime */,
+				FBF7707624021F6400717686 /* 宏定义 */,
+				FBF7707F2402301000717686 /* 重写的系统方法 */,
+				FBF7707B24022BC200717686 /* 可变参数函数 */,
+				FBF7705D24021EC900717686 /* AppDelegate.h */,
+				FBF7705E24021EC900717686 /* AppDelegate.m */,
+				FBF7706024021EC900717686 /* SceneDelegate.h */,
+				FBF7706124021EC900717686 /* SceneDelegate.m */,
+				FBF7706324021EC900717686 /* ViewController.h */,
+				FBF7706424021EC900717686 /* ViewController.mm */,
+				FBF7706624021EC900717686 /* Main.storyboard */,
+				FBF7706924021EC900717686 /* Assets.xcassets */,
+				FBF7706B24021EC900717686 /* LaunchScreen.storyboard */,
+				FBF7706E24021EC900717686 /* Info.plist */,
+				FBF7706F24021EC900717686 /* main.m */,
+			);
+			path = LiRWTool;
+			sourceTree = "<group>";
+		};
+		FBF7707624021F6400717686 /* 宏定义 */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7707A24021FC500717686 /* pubDefine.pch */,
+			);
+			path = "宏定义";
+			sourceTree = "<group>";
+		};
+		FBF7707B24022BC200717686 /* 可变参数函数 */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7707C24022BF100717686 /* varibleAgument.h */,
+				FBF7707D24022BF100717686 /* varibleAgument.m */,
+			);
+			path = "可变参数函数";
+			sourceTree = "<group>";
+		};
+		FBF7707F2402301000717686 /* 重写的系统方法 */ = {
+			isa = PBXGroup;
+			children = (
+				FBF77082240230AA00717686 /* STD.hpp */,
+				FBF77081240230AA00717686 /* STD.cpp */,
+			);
+			path = "重写的系统方法";
+			sourceTree = "<group>";
+		};
+		FBF7708424023BF000717686 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7708524023C1500717686 /* getVar.h */,
+				FBF7708624023C1500717686 /* getVar.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		FBF7708924023F4F00717686 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7708A24023F6600717686 /* blockObj.h */,
+				FBF7708B24023F6600717686 /* blockObj.m */,
+				FBF7708D24023F8100717686 /* blockManager.h */,
+				FBF7708E24023F8100717686 /* blockManager.m */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
+		FBF7709024024B6F00717686 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7709124024BA500717686 /* LRWTableView.h */,
+				FBF7709224024BA500717686 /* LRWTableView.m */,
+				FBF7709424024C0B00717686 /* LRWTableManager.h */,
+				FBF7709524024C0B00717686 /* LRWTableManager.m */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		FBF770972402664900717686 /* runloop */ = {
+			isa = PBXGroup;
+			children = (
+				FBF770982402665E00717686 /* runloopObj.h */,
+				FBF770992402665E00717686 /* runloopObj.m */,
+			);
+			path = runloop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF7705924021EC900717686 /* LiRWTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF7707324021EC900717686 /* Build configuration list for PBXNativeTarget "LiRWTool" */;
+			buildPhases = (
+				FBF7705624021EC900717686 /* Sources */,
+				FBF7705724021EC900717686 /* Frameworks */,
+				FBF7705824021EC900717686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiRWTool;
+			productName = LiRWTool;
+			productReference = FBF7705A24021EC900717686 /* LiRWTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF7705224021EC900717686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = " RWLi";
+				TargetAttributes = {
+					FBF7705924021EC900717686 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBF7705524021EC900717686 /* Build configuration list for PBXProject "LiRWTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF7705124021EC900717686;
+			productRefGroup = FBF7705B24021EC900717686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF7705924021EC900717686 /* LiRWTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF7705824021EC900717686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF7706D24021EC900717686 /* LaunchScreen.storyboard in Resources */,
+				FBF7706A24021EC900717686 /* Assets.xcassets in Resources */,
+				FBF7706824021EC900717686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF7705624021EC900717686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF7706524021EC900717686 /* ViewController.mm in Sources */,
+				FBF7708F24023F8100717686 /* blockManager.m in Sources */,
+				FBF7705F24021EC900717686 /* AppDelegate.m in Sources */,
+				FBF7707E24022BF100717686 /* varibleAgument.m in Sources */,
+				FBF7709624024C0B00717686 /* LRWTableManager.m in Sources */,
+				FBF7709A2402665E00717686 /* runloopObj.m in Sources */,
+				FBF7708C24023F6600717686 /* blockObj.m in Sources */,
+				FBF7709324024BA500717686 /* LRWTableView.m in Sources */,
+				FBF7708724023C1500717686 /* getVar.m in Sources */,
+				FBF77083240230AA00717686 /* STD.cpp in Sources */,
+				FBF7707024021EC900717686 /* main.m in Sources */,
+				FBF7706224021EC900717686 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF7706624021EC900717686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF7706724021EC900717686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF7706B24021EC900717686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF7706C24021EC900717686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF7707124021EC900717686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBF7707224021EC900717686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF7707424021EC900717686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiRWTool/宏定义/pubDefine.pch";
+				INFOPLIST_FILE = LiRWTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.LiRWTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF7707524021EC900717686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiRWTool/宏定义/pubDefine.pch";
+				INFOPLIST_FILE = LiRWTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.LiRWTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF7705524021EC900717686 /* Build configuration list for PBXProject "LiRWTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7707124021EC900717686 /* Debug */,
+				FBF7707224021EC900717686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF7707324021EC900717686 /* Build configuration list for PBXNativeTarget "LiRWTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7707424021EC900717686 /* Debug */,
+				FBF7707524021EC900717686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF7705224021EC900717686 /* Project object */;
+}
